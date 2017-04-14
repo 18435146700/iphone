@@ -65,7 +65,7 @@
 	width: 100%;
 	height: 600px;
 	background-color: #F2F2F2;
-    background-image: url('../响应式/img/watch_small.jpg');
+    background-image: url('../xys/img/watch_small.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -103,7 +103,7 @@
 	margin: 0 auto;
 }
  .lunbo ul{	
-	background-color: black;
+	/* background-color: black; */
 }
  .lunbo ul li{
  	width: 50px;
@@ -138,16 +138,16 @@
           border-bottom: 0px;
 }
 .applebox li:nth-child(1){
-          background-image: url('../响应式/img/wwdc17_large.jpg');
+          background-image: url('../xys/img/wwdc17_large.jpg');
 }   
 .applebox li:nth-child(2){
-          background-image: url('../响应式/img/macbook_pro_large.jpg');
+          background-image: url('../xys/img/macbook_pro_large.jpg');
 } 
 .applebox li:nth-child(3){
-          background-image: url('../响应式/img/supplier_responsibility_large.jpg');
+          background-image: url('../xys/img/supplier_responsibility_large.jpg');
 } 
 .applebox li:nth-child(4){
-          background-image: url('../响应式/img/accessories_large.jpg');
+          background-image: url('../xys/img/accessories_large.jpg');
 }
 .foot{
 	background-color: #F2F2F2;
@@ -323,7 +323,7 @@
 
 	.applebox li{
 		width: 50%;
-		background-color: green;
+		/* background-color: green; */
 	}
 	.applebox{
 		 height: 400px;
@@ -336,22 +336,22 @@
 	.banner{
           height: 455px;
         /*   background-color: #F2F2F2; */
-          background-image: url('../响应式/img/watch_medium.jpg');
+          background-image: url('../xys/img/watch_medium.jpg');
 	     }
 	.applebox li:nth-child(1),li:nth-child(2){
           border-bottom: 0px;
          }
     .applebox li:nth-child(1){
-          background-image: url('../响应式/img/wwdc17_medium.jpg');
+          background-image: url('../xys/img/wwdc17_medium.jpg');
          }   
     .applebox li:nth-child(2){
-          background-image: url('../响应式/img/macbook_pro_medium.jpg');
+          background-image: url('../xys/img/macbook_pro_medium.jpg');
          } 
     .applebox li:nth-child(3){
-          background-image: url('../响应式/img/supplier_responsibility_medium.jpg');
+          background-image: url('../xys/img/supplier_responsibility_medium.jpg');
          } 
     .applebox li:nth-child(4){
-          background-image: url('../响应式/img/accessories_medium.jpg');
+          background-image: url('../xys/img/accessories_medium.jpg');
          } 
 }
 
@@ -384,22 +384,22 @@
     .banner{
           height: 450px;
           background-color: #F2F2F2;
-           background-image: url('../响应式/img/watch_small.jpg');
+           background-image: url('../xys/img/watch_small.jpg');
 	}	
 	.applebox li:nth-child(2),li:nth-child(1){
 		border-bottom: 0px;
 	}
 	    .applebox li:nth-child(1){
-          background-image: url('../响应式/img/wwdc17_small.jpg');
+          background-image: url('../xys/img/wwdc17_small.jpg');
          }   
     .applebox li:nth-child(2){
-          background-image: url('../响应式/img/macbook_pro_small.jpg');
+          background-image: url('../xys/img/macbook_pro_small.jpg');
          } 
     .applebox li:nth-child(3){
-          background-image: url('../响应式/img/supplier_responsibility_small.jpg');
+          background-image: url('../xys/img/supplier_responsibility_small.jpg');
          } 
     .applebox li:nth-child(4){
-          background-image: url('../响应式/img/accessories_small.jpg');
+          background-image: url('../xys/img/accessories_small.jpg');
          } 
     .con2{
     	display: none;
