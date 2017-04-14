@@ -1,0 +1,411 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	font-family: "微软雅黑","苹方";
+	text-decoration: none;
+}
+
+.biaoti{
+	width: 100%;
+	height: 44px;
+	background-color: black;
+}
+.navbox{
+	width: 1000px;
+	height: 100%;
+	margin:  auto;
+}
+.navbox .content {
+	width: 100%;
+	line-height: 44px;
+	text-align: justify;  
+
+}
+.navbox .content a{
+	font-size: 14px;
+	color: #fff;
+}
+.content a:hover{
+	color: #B3B3B3;
+}
+.navbox .content:after{
+    content: ""; 
+    display: inline-block;
+    width: 100%;
+}
+.iconfont{
+	display: inline-block;
+}
+.navbox .content li{
+	 display: inline-block;
+}
+.navbox .con{
+  width: 100%;
+  height: 44px;
+  display: none;
+}
+.navbox .con li{
+  width: 33.33%;
+  height: 44px;
+  line-height: 44px;
+  text-align: center;
+  float: left;
+}
+.navbox .con li:nth-child(1){
+    	text-align: left;
+}
+
+.navbox .con  li:nth-child(3){
+    	text-align: right;
+ }
+
+
+.banner{
+	width: 100%;
+	height: 600px;
+	background-color: #F2F2F2;
+    background-image: url('../响应式/img/watch_small.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.title{
+	width: 100%;
+	height: 140px;
+/* 	background-color: red; */
+	text-align: center;
+	padding-top: 25px;
+}
+.title .con{
+	display:block;
+	margin: 0 auto;
+}
+
+.con h1 {
+	display: inline-block;
+	line-height: 50px;
+}
+.con h2 {
+	display: inline-block;
+	line-height: 50px;
+}
+.lunbo{
+	width: 60%;
+	height: 25px;
+	position: absolute;
+/* 	bottom: 20px;
+	left: 20%;
+    background-color: blue; */
+}
+.lunbo ul{
+	margin: 0 auto;
+}
+ .lunbo ul{	
+	background-color: black;
+}
+ .lunbo ul li{
+ 	width: 50px;
+ 	height: 22px;
+ 	margin: 0 5px;
+ 	float: left;
+ }
+.applebox{
+	width: 100%;
+	height: 200px;
+	background-color: red;
+}
+.applebox li{
+	width: 25%;
+	height: 200px;
+	/* background-color: blue; */
+	/* margin: 0 auto; */
+	float: left;
+	box-sizing: border-box ;
+	border: 2px solid #fff;
+}
+.applebox li:nth-child(1),li:nth-child(2),li:nth-child(3){
+          border-right: 0px;
+}
+.applebox li{
+	      background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+
+}
+.applebox li:nth-child(1),li:nth-child(2){
+          border-bottom: 0px;
+}
+.applebox li:nth-child(1){
+          background-image: url('../响应式/img/wwdc17_large.jpg');
+}   
+.applebox li:nth-child(2){
+          background-image: url('../响应式/img/macbook_pro_large.jpg');
+} 
+.applebox li:nth-child(3){
+          background-image: url('../响应式/img/supplier_responsibility_large.jpg');
+} 
+.applebox li:nth-child(4){
+          background-image: url('../响应式/img/accessories_large.jpg');
+}
+.foot{
+	background-color: #F2F2F2;
+}
+.foot .con{
+	   width: auto;
+/* 	   height: 401px; */
+	   margin: 0 auto;
+       padding: 0 22px;
+       max-width: 980px
+}    
+.con .con1{
+	    border-bottom: 1px solid #d6d6d6;
+        color: #888;
+        padding: 17px 0 11px;
+            margin-bottom: 22px;
+}   
+.con1 li{
+        line-height: 1.45455;
+        font-weight: 400;
+        letter-spacing: .005em;
+        padding-bottom: 4px;
+        font-size: 10px;
+}
+
+.con2 .word{
+	   width: 20%;
+	  /*  background-color: orange; */
+	   float: left;
+}
+.clear{
+	clear: both;
+}
+.word .sec{
+	   width: 100%;
+}
+.sec li{
+	    display: block;
+        margin-bottom: 6px;	
+        font-size: 10px;
+}
+.sec ul{
+	padding-top: 10px;
+}
+.list .zi{
+	   color: #555;
+	   text-decoration: none;
+	   font-size: 1px;
+}
+
+.sec h3{
+	font-size: 11px;
+	font-weight: bolder;
+	color: #333333;
+}
+.list a:hover{
+         color: #333;
+         text-decoration: underline;
+}
+.word .t-sec:nth-child(2){
+	margin-top: 30px;
+}
+.con3{
+	font-size: 10px;
+	color: #888;
+    padding: 34px 0 21px
+}
+.con3-shop{
+	border-bottom: 1px solid #d6d6d6;
+	    margin-bottom: 7px;
+    padding-bottom: 6px;
+}
+.con3-shop span a{
+	color: #0070c9;
+	text-decoration: none;
+}
+.biao{
+	float: right;
+}
+.con3-hongyin{
+	float: right;
+    margin-top: 3px;
+    display: inline-block;
+ /*    background-image: url('../响应式/img/16.png');
+     background-position: center;
+    background-position: center;
+    background-repeat: no-repeat; */
+}
+/* .con3-hongyin span img{
+	    width: 16px;
+        height: 16px;
+        padding-right: 5px;
+        background-position: left center;
+        cursor: pointer;
+        float: left;
+} */
+.hongyin span{
+	padding-right: 10px;
+}
+.con3-banquan {
+        top: -3px;
+}
+.con3-banquan .copy{
+	float: left;
+}
+.con3-banquan div:nth-child(1){
+	margin-right: 30px;
+	margin-top: 3px;
+}
+.copy{
+	display: inline-block;
+}
+.copy .copy-r{
+	    border-right: 1px solid #d6d6d6;
+	    margin-right: 10px;
+        padding-right: 12px;
+        display: inline-block;
+        margin-top: 3px;
+}
+.copy a:nth-child(5){
+	border-right: 0;
+}
+.copy a{
+        text-decoration: none;
+        color: #555;
+}
+.jing{
+	color: #999;
+	font-size: 10px;
+	margin-top: 5px;
+	display: inline-block;
+}
+
+.con4 div{/* 
+		width: 100%; */
+		height: 38px;
+		border-bottom: 1px solid #D6D6D6;
+		font-size: 10px;
+		line-height: 38px;
+		margin-left: 20px;
+}
+.con4 span{
+		float: right;
+		margin-right: 20px;
+}
+.con4{
+     	display: none;
+}
+.w  a:hover{
+	border-bottom: 1px solid #0070c9;
+}
+.copy a:hover{
+	border-bottom: 1px solid #000;
+	color: #000;
+}
+.jing a{
+	color:  #999;
+}
+.jing a:hover{
+	border-bottom: 1px solid #000;
+}
+@media screen and (max-width: 1050px) {
+		.navbox{
+	   width: 100%;
+	   box-sizing: border-box;
+	   padding: 0 15px;
+	}
+	.navbox .con{
+       width: 100%;
+       height: 44px;
+     
+	}
+
+	.applebox li{
+		width: 50%;
+		background-color: green;
+	}
+	.applebox{
+		 height: 400px;
+	}
+	.applebox li:nth-child(2),li:nth-child(1){
+		border-bottom: 0px;
+	}
+
+    
+	.banner{
+          height: 455px;
+        /*   background-color: #F2F2F2; */
+          background-image: url('../响应式/img/watch_medium.jpg');
+	     }
+	.applebox li:nth-child(1),li:nth-child(2){
+          border-bottom: 0px;
+         }
+    .applebox li:nth-child(1){
+          background-image: url('../响应式/img/wwdc17_medium.jpg');
+         }   
+    .applebox li:nth-child(2){
+          background-image: url('../响应式/img/macbook_pro_medium.jpg');
+         } 
+    .applebox li:nth-child(3){
+          background-image: url('../响应式/img/supplier_responsibility_medium.jpg');
+         } 
+    .applebox li:nth-child(4){
+          background-image: url('../响应式/img/accessories_medium.jpg');
+         } 
+}
+
+@media screen and (max-width: 768px) {
+    	.navbox{
+		width: 100%;
+	}
+
+	.navbox .con{
+     width: 100%;
+     height: 44px;
+     display: block;
+	}
+	.navbox .content{
+     width: 100%;
+     height: 44px;
+     display: none;
+	}
+	.navbox ul .con:nth-child(2){
+    	display: block;
+    }
+	
+    .applebox li{
+		width: 100%;
+		background-color: purple;
+	}
+	.applebox{
+		 height: 500px;
+	}
+    .banner{
+          height: 450px;
+          background-color: #F2F2F2;
+           background-image: url('../响应式/img/watch_small.jpg');
+	}	
+	.applebox li:nth-child(2),li:nth-child(1){
+		border-bottom: 0px;
+	}
+	    .applebox li:nth-child(1){
+          background-image: url('../响应式/img/wwdc17_small.jpg');
+         }   
+    .applebox li:nth-child(2){
+          background-image: url('../响应式/img/macbook_pro_small.jpg');
+         } 
+    .applebox li:nth-child(3){
+          background-image: url('../响应式/img/supplier_responsibility_small.jpg');
+         } 
+    .applebox li:nth-child(4){
+          background-image: url('../响应式/img/accessories_small.jpg');
+         } 
+    .con2{
+    	display: none;
+    }
+     .con4{
+    	display: block;
+    }
+
+}
